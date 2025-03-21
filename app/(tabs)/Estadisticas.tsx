@@ -1,9 +1,9 @@
 import { View, Text } from "react-native";
 
-export default function HomeScreen() {
+export default function EstadoScreen() {
     return (
         <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-            <Text>🏡 Pantalla de Inicio</Text>
+            <Text>📊 Estadisticas de las Plantas</Text>
         </View>
     );
 }
